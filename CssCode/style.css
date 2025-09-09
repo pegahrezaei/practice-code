@@ -132,7 +132,7 @@ nav ul li a{ /* styl dehi be meno*/
     display: inline-block;
 }
 
-.title-text p::after{
+.title-text p::after{ /* estayle dehi shekle barge  */
     content: '';
     width: 50px;
     height: 35px;
