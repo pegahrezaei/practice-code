@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beauty Salon</title> <!--titel tag thah creat into Head tag-->
     <link rel="stylesheet" href="style.css">
+   <!--linke payeen fontha ke az google avordim  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
@@ -13,19 +14,19 @@
 </head>
 
 <body> <!--Body tag-->
-    <section id="banner">
+    <section id="banner"> <!-- section tag baray joda kardan bakhshhay mokhtalf (inja banner) va az id braye moshaks kardan id har tag section -->
         <img class="logo" src="photo/logo1.png">
         <div class="banner-text">
             <h1>Hair Studio</h1>
             <p>Style Your Hair Is Style Your Life</p>
-        <div class="banner-btn">
-            <a href="#"><span></span> Find Out</a>
-            <a href="#"><span></span> Read More</a>
+        <div class="banner-btn"> <!-- baraye dadan style dar css yek class tarfi mikinim va in class ro mibarim dar css va behesh style midim -->
+            <a href="#"><span></span> Find Out</a> <!-- a eyjade btn & tag span bary styl dehi be khode botn  -->
+            <a href="#"><span></span> Read More</a> 
         </div>
         </div>
-    </section>
-    <div id="sideNav">
-        <nav>
+    </section> <!-- eyjad navigation bar va list hash -->
+    <div id="sideNav"> <!-- dadan id be in tag dive baye farakhoni dar css -->
+        <nav> 
             <ul>
                 <li> <a href="#banner"> HOME </a></li>
                 <li> <a href="#features"> FEATURES </a></li>
@@ -41,7 +42,7 @@
     </div>
 
     <!--Features-->
-    <section id="features">
+    <section id="features"> <!-- baray dadan id jahat farakhoni dar css-->
       <div class="title-text">
         <p>FEATURES</p>
         <h1>Why Choose Us</h1>
@@ -178,21 +179,21 @@
         </div>
 
     </section>
-
-    <script>
+<!--baraye tarif kol moteqairha bakhsh menu dar tage script-->
+    <script> 
         var menuBtn = document.getElementById("menuBtn")
         var menu = document.getElementById("menu")
         var sideNav = document.getElementById("sideNav")
-
-        sideNav.style.right = "-200px"
+        /* baraye halat baz va baste shodan menu */
+        sideNav.style.right = "-200px" /* baes mishe ba 1 click menu baz besh*/
         menuBtn.onclick = function(){
             if(sideNav.style.right == "-200px"){
                 sideNav.style.right = "0"
-                menu.src = "photo/close.png"
+                menu.src = "photo/close.png" /* tarif icon close*/
             }
             else{
                 sideNav.style.right = "-200px"
-                menu.src = "photo/menu3.jpeg"
+                menu.src = "photo/menu3.jpeg" /* jabaejai icon menu va close*/
             }
         }
 
