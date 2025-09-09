@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+<!-- bary inke dar menu click mikonam bebare be bakhsh ahi mokhtlef web site mirim dar google va roye smooth scroll js ro search imkonm(github) dar bakhshe CDN scriot src ro copy va inja paste mikonim  -->
 <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
 
@@ -27,7 +28,7 @@
     </section> <!-- eyjad navigation bar va list hash -->
     <div id="sideNav"> <!-- dadan id be in tag dive baye farakhoni dar css -->
         <nav> 
-            <ul>
+            <ul> <!-- bay linke dehi be menu hamon-->
                 <li> <a href="#banner"> HOME </a></li>
                 <li> <a href="#features"> FEATURES </a></li>
                 <li> <a href="#service"> SERVICES </a></li>
@@ -76,7 +77,7 @@
             <div class="service-desc">
                 <h1>Hair Styling</h1>
                 <hr>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>From sleek and modern looks to soft and romantic waves, our stylists create hairstyles that bring out your natural beauty and match your unique vibe.</p>
             </div>
             </div>    
             <div class="single-service">
@@ -86,7 +87,7 @@
                 <div class="service-desc">
                     <h1>Make up</h1>
                     <hr>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Whether it’s a fresh everyday glow or a glamorous evening look, our makeup artists highlight your best features with skill and care.</p>
                 </div>
              </div>
             <div class="single-service">
@@ -96,7 +97,7 @@
                 <div class="service-desc">
                     <h1>Nail</h1>
                     <hr>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Treat your hands and feet to some love! From classic manicures to creative nail art, we make sure your nails look stylish and flawless.</p>
                 </div>
              </div>
             <div class="single-service"> 
@@ -106,7 +107,7 @@
                 <div class="service-desc">
                     <h1>Barber’s</h1>
                     <hr>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Sharp cuts, clean shaves, and fresh styles—our barber services keep you looking confident, polished, and effortlessly cool.</p>
                 </div>
             </div>
         </div>
@@ -118,9 +119,8 @@
             <p>TESTIMONIAL</p>
             <h1>Our Clients Say</h1>
         </div> 
-
+            <!-- 3 satr va soton bakhshe testimonial-->
         <div class="testimonial-row">
-
             <div class="testimonial-col">
                 <div class="user">
                     <img src="photo/cus.jpg">
@@ -128,7 +128,7 @@
                         <h4> John </h4>
                     </div>
                 </div>
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <p> “I’ve been to many salons before, but this one truly stands out. The team is so welcoming, and my haircut turned out exactly how I imagined—if not better. I left feeling confident and refreshed.”</p>
             </div>
 
             <div class="testimonial-col">
@@ -138,7 +138,7 @@
                         <h4> Diana </h4>
                     </div>
                 </div>
-                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p> “I booked a makeup session for a special event, and it was perfect. The artist really listened to me, matched the look to my style, and made me feel stunning the whole night. Highly recommended!”</p>
             </div>
             
             <div class="testimonial-col">
@@ -148,7 +148,7 @@
                         <h4> Daniel </h4>
                     </div>
                 </div>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p> “As a regular client, I can say the service here is always consistent and professional. From the barbering to the overall atmosphere, everything feels premium and tailored just for you.”</p>
         </div>
 
     </section>
@@ -196,6 +196,7 @@
                 menu.src = "photo/menu3.jpeg" /* jabaejai icon menu va close*/
             }
         }
+        /* bary sorat click va raftan be bakhsh ahi mokhtlef website mirim dar google va roye smooth scroll js ro search imkonm(github) dar bakhshe Scroll Speed, var scroll ro copy va inja paste mikonim */
 
         var scroll = new SmoothScroll('a[href*="#"]', {
 	speed: 50,

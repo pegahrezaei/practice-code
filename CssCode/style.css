@@ -151,7 +151,6 @@ nav ul li a{ /* styl dehi be meno*/
     font-size: 50px;
 }
 
-
 .feature-box{
     width: 80%;
     margin: auto;
@@ -267,12 +266,12 @@ hr{
 
 /*--testimonial--*/
 
-#testimonial{
+#testimonial{ /* fasel beyn 2 safhe*/ 
     width: 100%;
     padding: 70px 0;    
 }
 
-.testimonial-row{
+.testimonial-row{ /*shekl dehi satrha*/ 
     width: 80%;
     margin: auto;
     display: flex;
@@ -281,7 +280,7 @@ hr{
     flex-wrap: wrap;
 }
 
-.testimonial-col{
+.testimonial-col{ /* shekdehei soton ha */ 
     flex-basis: 28%;
     padding: 10px;
     margin-bottom: 30px;
@@ -308,7 +307,7 @@ hr{
     border-radius: 3px;
 }
 
-.testimonial-col:hover{
+.testimonial-col:hover{ /* baraye effect dadn be box hai tajrobiyat moshtariyan */ 
     transform: translateY(-7px);
 }
 
